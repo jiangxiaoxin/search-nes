@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.0.5"
+    "react-scripts": "2.0.5",
+    "axios": "^0.18.0",
+    "prop-types": "^15.6.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,8 +29,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "axios": "^0.18.0",
-    "gh-pages": "^2.0.1",
-    "prop-types": "^15.6.2"
+    "gh-pages": "^2.0.1"
   }
 }
