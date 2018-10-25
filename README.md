@@ -1,5 +1,9 @@
 # search-nes
 
+[the-road-to-learn-react](https://github.com/the-road-to-learn-react/the-road-to-learn-react)
+
+- v1: without redux, handle state in App.jsx & db.js
+
 ## How to deploy
 
 ```bash
