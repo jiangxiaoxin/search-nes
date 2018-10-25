@@ -14,7 +14,9 @@
 4. git push heroku master // or " git push heroku v1:master "
 5. check https://search-nes.herokuapp.com/
 ```
+## important
 
+千万别把运行需要的库装错地方，dependencies和devDependencies很重要。一开始axios装在dev里，gh-pages能发布成功，但是heroku不能，它找不到axios。
 
 
 ## Links
