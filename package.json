@@ -13,6 +13,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage" : "http://jiangxiaoxin.github.io/search-nes",
   "eslintConfig": {
     "extends": "react-app"
   },
