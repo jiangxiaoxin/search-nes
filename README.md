@@ -11,7 +11,7 @@
 2. git commit -m "update project"
 3. git push
 
-4. git push heroku master
+4. git push heroku master // or " git push heroku v1:master "
 5. check https://search-nes.herokuapp.com/
 ```
 
