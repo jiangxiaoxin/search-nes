@@ -5,13 +5,8 @@ import './index.css';
 import App from './App.jsx';
 import * as serviceWorker from './serviceWorker';
 
-import { Provider } from "react-redux";
-import store from './counter/store';
-
 render(
-  <Provider store={ store }>
-    <App />
-  </Provider>,
+  <App />,
   document.getElementById('root')
 )
 

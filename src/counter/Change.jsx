@@ -6,7 +6,7 @@ import { connect } from 'react-redux'
 class Change extends React.Component {
   render() {
     return (
-      <div>
+      <div style={{marginBottom: 20}}>
         <p>name: {this.props.name}</p>
         <p>age: {this.props.age}</p>
         <div>

@@ -10,7 +10,7 @@ class Result extends React.Component{
 
   render() {
     return (
-      <div>
+      <div className="result-part" style={{marginBottom: 20}}>
         current value : { this.props.value }
       </div>
     )

@@ -15,7 +15,7 @@ class Counter extends React.Component {
     return (
       <div>
         <Result />
-        <div>
+        <div style={{marginBottom: 20}}>
           <button onClick={this.props.handleIncrease}>increment</button>
           <button onClick={this.props.handleDecrease}>decrement</button>
           <button onClick={() => { console.log('counter log', this.props) }}>counter log store</button>
